@@ -18,7 +18,7 @@ jobs:
         with:
           filters: |
             shared_function:
-              - 'GitHubActionsPractice/subfolder/**'
+              - 'subfolder/**'
 
       - name: Update Shared Function label
         env:
